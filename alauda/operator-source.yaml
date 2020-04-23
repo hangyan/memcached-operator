@@ -1,0 +1,9 @@
+apiVersion: operators.coreos.com/v1
+kind: OperatorSource
+metadata:
+  name: harbor
+  namespace: marketplace
+spec:
+  type: appregistry
+  endpoint: http://192.168.0.235:5000/cnr
+  registryNamespace: hangyan
