@@ -158,5 +158,4 @@ spec:
   - {}
   maturity: alpha
   provider: {}
-  replaces: memcached-operator.0.0.1
   version: 0.0.1
